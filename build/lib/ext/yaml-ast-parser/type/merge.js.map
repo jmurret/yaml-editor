@@ -1,1 +1,0 @@
-{"version":3,"file":"merge.js","sourceRoot":"","sources":["../../../../../src/ext/yaml-ast-parser/type/merge.ts"],"names":[],"mappings":";;AAEA,gCAA+B;AAE/B,SAAS,gBAAgB,CAAC,IAAI;IAC5B,OAAO,IAAI,KAAK,IAAI,IAAI,IAAI,KAAK,IAAI,CAAC;AACxC,CAAC;AAED,kBAAe,IAAI,WAAI,CAAC,yBAAyB,EAAE;IACjD,IAAI,EAAE,QAAQ;IACd,OAAO,EAAE,gBAAgB;CAC1B,CAAC,CAAC"}
