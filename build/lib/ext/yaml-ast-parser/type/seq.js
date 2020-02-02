@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var type_1 = require("../type");
+exports.default = new type_1.Type('tag:yaml.org,2002:seq', {
+    kind: 'sequence',
+    construct: function (data) { return null !== data ? data : []; }
+});
+//# sourceMappingURL=seq.js.map
