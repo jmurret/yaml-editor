@@ -12,7 +12,6 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@storybook/react": "^4.0.0-alpha.23",
-    "@types/axios": "^0.14.0",
     "@types/jest": "^23.3.2",
     "@types/node": "^13.7.0",
     "@types/react": "^16.9.19",
@@ -23,9 +22,7 @@
     "worker-loader": "^2.0.0"
   },
   "dependencies": {
-    "jsonc-parser": "^2.2.0",
     "monaco-editor-core": "^0.14.6",
-    "monaco-yaml": "^1.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "umd-compat-loader": "^2.1.2",

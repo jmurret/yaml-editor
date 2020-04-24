@@ -366,7 +366,7 @@ export class CompletionAdapter
   ): Thenable<monaco.languages.CompletionList> {
     const wordInfo = model.getWordUntilPosition(position);
     const resource = model.uri;
-
+    console.log("COMPLETTION");
     return wireCancellationToken(
       token,
       this._worker(resource)
@@ -374,6 +374,7 @@ export class CompletionAdapter
           return worker.doComplete(resource.toString(), fromPosition(position));
         })
         .then(info => {
+          console.log({ info });
           if (!info) {
             return;
           }
